@@ -1,0 +1,125 @@
+.active {
+  background-color: #0662b7 !important;
+  // :before {
+  //   content: 'd';
+  //   background-color: #cbe0f5 !important;
+  //   width: 5px !important;
+  //   height: 100%;
+  //   border-radius: 30px;
+  // }
+  // border-left: 4px #cbe0f5 solid !important;
+
+  img {
+    filter: invert(0%) sepia(100%) saturate(3%) hue-rotate(188deg)
+      brightness(109%) contrast(97%) !important;
+  }
+}
+.lineDiv {
+  position: relative;
+  border-radius: 4px !important;
+}
+.lineActive {
+  background-color: #cbe0f5 !important;
+  width: 4px !important;
+  height: 100%;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+}
+.inactive {
+  background-color: transparent !important;
+}
+.sidebar-main {
+  display: flex; // arun
+  flex-shrink: 0; //arun
+  border-radius: 4px;
+  /* width */
+  .css-o3vp10-MuiTypography-root {
+    font-size: 14px;
+  }
+  .css-10tn45-MuiBadge-badge {
+    right: -5px;
+  }
+  ::-webkit-scrollbar {
+    width: 4px !important;
+    background-color: transparent !important;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #999b9c !important;
+    border-radius: 10px !important;
+  }
+}
+.sidebar-menu {
+  height: 70vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.search-container-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  input {
+    font-size: 13px;
+  }
+  .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 1px solid #afaeaf;
+    border-radius: 4px;
+    height: 40px;
+    width: 23vw;
+    padding: 0 14px;
+
+    .search-icon {
+      color: #afaeaf;
+    }
+  }
+}
+.powerByStyle {
+  font-weight: 400;
+  font-size: 0.9vw;
+  line-height: 14px;
+  letter-spacing: 0.004em;
+  color: #b8b9ba;
+}
+.css-eg9uw0-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background-color: transparent !important;
+}
+
+.sub-menu {
+  .MuiMenu-paper {
+    background-color: #282829;
+    color: white;
+    border-radius: 0px !important;
+    min-width: 291px;
+    .MuiMenu-list {
+      padding: 0px !important;
+      .active {
+        border-left: 5px solid white !important;
+      }
+      .MuiListItemButton-root:hover {
+        color: white;
+      }
+      .first-item {
+        background-color: #4d4e50;
+        display: flex;
+        justify-content: space-between;
+      }
+      .MuiMenuItem-root {
+        min-height: 48px;
+        padding: 0px 45px;
+      }
+    }
+  }
+}
+.hidenArrowprofile {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: none;
+  }
+  display: block;
+}

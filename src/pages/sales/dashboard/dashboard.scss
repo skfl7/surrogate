@@ -1,0 +1,173 @@
+.sales-dashboard {
+  text-align: center;
+  display: flex;
+  .sales-main-container {
+    width: 100%;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: 'Ilisarniq',sans-serif;
+    .apexcharts-tooltip {
+      color: #000000;
+    }
+    .apexcharts-tooltip .apexcharts-tooltip-series-group.active {
+      background: #ffffff !important;
+    }
+    .dsa-data-container {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      .filter-header {
+        display: flex;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        margin-left: 22px;
+        margin-right: 14px;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: flex-start;
+        .filter-data {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .reset-data {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        }
+      }
+      .horizontal-cards {
+        margin-left: 23px;
+        margin-right: 12px;
+      }
+      .divider-line {
+        border: 1px solid #e6e7e8;
+        margin-left: 23px;
+        margin-right: 25px;
+      }
+      .report-cards {
+        display: flex;
+        // height: 70vh;
+        margin: 40px 27px 40px 23px;
+        .progress-card {
+          width: 50%;
+        }
+        .graph-card {
+          width: 50%;
+          .graph-div {
+            border: 1px solid #f0f2f5;
+            border-radius: 10px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            .line-div {
+              border: 1px solid #f0f2f5;
+              margin-top: 27px;
+              width: 100%;
+            }
+            .overview-text {
+              font-size: 16px;
+              color: black;
+              font-weight: bold;
+            }
+            .overview-text2 {
+              font-size: 14px;
+              color: black;
+            }
+            .filter-graph-box {
+              margin-top: 26px;
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              .third-header {
+                display: flex;
+                flex-direction: row;
+                // margin-bottom: 14px;
+              }
+              .line2-div {
+                border: 0.5px solid #8a8b8c;
+                height: 3vh;
+              }
+              .graph-filter-box {
+                color: black;
+                font-size: 12px;
+                background-color: #f3f3f3;
+                display: flex;
+                align-items: center;
+                border-radius: 3px;
+                .hour-box {
+                  color: black;
+                  font-size: 12px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                }
+                .selectedBox {
+                  font-size: 12px;
+                  background-color: #0662b7;
+                  height: 5vh;
+                  display: flex;
+                  align-items: center;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                  border-radius: 3px;
+                }
+                .overview-text3 {
+                  font-size: 12px;
+                  color: black;
+                  font-weight: 500;
+                  cursor: pointer;
+                }
+                .selected-overview-text3 {
+                  font-size: 12px;
+                  color: white;
+                  font-weight: 500;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .diff-area {
+      margin-top: 70px;
+    }
+    .list-data-box {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      .recent-data {
+        display: flex;
+        margin-top: 24px;
+        margin-left: 22px;
+        .recent-data-text {
+          font-size: 14px;
+          color: black;
+          font-weight: bold;
+        }
+      }
+      .line3-div {
+        border: 1px solid #f0f2f5;
+        margin-top: 24px;
+        margin-left: 22px;
+        margin-right: 23px;
+      }
+    }
+  }
+}
+// li,
+// ul {
+//   list-style-type: none;
+//   padding: 0;
+//   margin: 0;
+// }

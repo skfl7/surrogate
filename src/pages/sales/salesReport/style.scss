@@ -1,0 +1,127 @@
+.sales-report-list {
+  background-color: #f0f2f5;
+
+  .container {
+    background-color: #ffffff;
+    padding: 20px 30px 30px 30px;
+    margin: 30px 0px;
+    border-radius: 8px;
+
+    .underline {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      margin: 18px 0px;
+      border-bottom: 2px solid #eceff2;
+    }
+
+    .sub-label {
+      font-size: 13px;
+      letter-spacing: 0.2;
+      color: #a3a3a5;
+      padding-bottom: 20px;
+    }
+
+    .dropdown-label {
+      font-size: 13px;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 16px;
+      margin-left: auto;
+    }
+
+    .icons-container {
+      display: flex;
+      justify-content: end;
+      .icons {
+        width: 16px;
+        // margin: -20px 20px 0px 0px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.sales-report-details-container {
+  background-color: #eceff2;
+  margin-bottom: 110px;
+  margin-top: 10px;
+  .header-container {
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin: 20px 0px 0px 0px;
+    .main-header {
+      font-weight: 600;
+      font-size: 17px;
+      margin: 10px 0px;
+    }
+  }
+
+  .info-label {
+    color: #afaeaf;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px 0px 6px 0px;
+  }
+
+  .info-value {
+    color: #151515;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.sales-report-details-container {
+  background-color: #eceff2;
+  min-height: 100vh;
+  margin-bottom: 110px;
+  margin-top: 10px;
+  .sales-report-header-container {
+    background-color: #ffffff;
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .sales-report-main-header {
+      font-weight: 600;
+      font-size: 17px;
+      margin: 10px 0px;
+      display: flex;
+      flex-direction: row;
+      .sales-report-headIcon {
+        color: #0662b7;
+        margin-right: 8px;
+      }
+    }
+    .btnIcon {
+      width: 40px;
+      height: 40px;
+      padding: 2px 6px;
+      border: none;
+      // background-color: #F3F3F3;
+    }
+    .btnIcon:hover {
+      background-color: #f3f3f3;
+      border-radius: 50%;
+    }
+   
+    
+  }
+  
+
+  .sales-report-info-label {
+    color: #afaeaf;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px 0px 6px 0px;
+
+  }
+  
+}
+

@@ -1,0 +1,11 @@
+.date-range-popup {
+  background-color: white;
+  width: 380px;
+  .field-container {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+  }
+}
+
+.MuiPopover-root, .MuiDialog-root { z-index: 1000 !important; }

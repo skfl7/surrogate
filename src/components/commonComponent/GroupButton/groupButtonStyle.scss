@@ -1,0 +1,26 @@
+.buttonContainer {
+  .buttonContainerTitle {
+    font-family: 'Ilisarniq', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.004em;
+    color: #151515;
+    white-space: nowrap;
+    text-align: center;
+    border-color: #d7d8d8;
+  }
+  .activeButton {
+    background-color: #0662b7 !important;
+    color: white !important;
+    border-radius: 5px !important;
+  }
+}
+.css-q71w2f-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type) {
+  border-color: none !important;
+  border-right: 2px solid #d7d8d8 !important;
+}
+.css-pv5m3o-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type){
+  border-right:2px solid #D7D8D8!important;
+}

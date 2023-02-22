@@ -1,0 +1,313 @@
+.risk-customer-report-list {
+  background-color: #f0f2f5;
+
+  .container {
+    background-color: #ffffff;
+    // padding: 20px 30px 30px 30px;
+    margin: 20px 0px;
+    border-radius: 8px;
+
+    .btnIcon {
+      padding: 2px 6px;
+      border: none;
+      // background-color: #F3F3F3;
+    }
+    .btnIcon:hover {
+      background-color: #f3f3f3;
+      border-radius: 50%;
+    }
+    .padding-container {
+      padding: 20px 30px 30px 30px;
+    }
+    .padding-container2 {
+      padding: 20px 30px 0px 30px;
+    }
+
+    .underline {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid #eceff2;
+      .imageContainer {
+        margin: -20px 10px 0px 25px;
+        padding: 0 5px 5px;
+        border-radius: 50%;
+        background-color: #f3f3f3;
+      }
+      .imageContainer:hover {
+        background-color: #f3f3f3;
+      }
+      // display: flex;
+      // flex-direction: row;
+      // justify-content: space-between;
+    }
+
+    .sub-label {
+      font-size: 13px;
+      letter-spacing: 0.2;
+      color: #a3a3a5;
+      padding-bottom: 20px;
+    }
+
+    .filters-container {
+      margin-top: 7px;
+    }
+
+    .dropdown-label {
+      font-size: 13px;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 16px;
+      margin-left: auto;
+      margin-top: 24px;
+    }
+
+    .icons-container {
+      display: flex;
+      justify-content: end;
+      // .icons {
+      //   // width: 16px;
+      //   width: 40px;
+      //   height: 40px;
+      //   cursor: pointer;
+      //
+      //
+      // }
+    }
+  }
+}
+
+.risk-mngmt-customer-details {
+  .upper-head-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 32px;
+
+    .create-header-container {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 24px 32px 20px 32px;
+
+      .status-approved-text {
+        font-size: 12px;
+        color: #1c592a;
+        background-color: #e3f3e6;
+        text-transform: none;
+        height: 24px;
+      }
+
+      .status-rejected-text {
+        font-size: 12px;
+        color: #992d26;
+        background-color: #fce4e5;
+        text-transform: none;
+        height: 24px;
+      }
+
+      .status-refer-text {
+        font-size: 12px;
+        color: #997f31;
+        background-color: #fbf2d7;
+        text-transform: none;
+        height: 24px;
+      }
+    }
+
+    .icons-container {
+      display: flex;
+      justify-content: flex-start;
+      height: 5px;
+      margin-left: 24px;
+      margin-right: 24px;
+      gap: 16px;
+
+      .each-icon {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        cursor: pointer;
+        background-color: #f3f3f3;
+        border-radius: 50%;
+
+        .icons {
+          margin: auto;
+          width: 13px;
+          height: 13px;
+        }
+      }
+
+      .each-icon:hover {
+        background-color: #f3f3f3;
+        border-radius: 50%;
+      }
+    }
+
+    .viewpage-detail {
+      padding: 0px 32px 24px 32px;
+    }
+
+    .underline {
+      border: 1px solid #f0f2f5;
+      width: 100%;
+      margin: 0px 0px 24px 0px;
+    }
+
+    .info-label {
+      color: #afaeaf;
+      font-size: 12px;
+      font-weight: 500;
+      margin: 0px 0px 6px 0px;
+    }
+    .info-value {
+      color: #151515;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  .credit-score-outer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    .underline {
+      border: 1px solid #f0f2f5;
+      width: 100%;
+      margin: 24px 0px 12px 0px;
+    }
+
+    .credit-container1 {
+      background-color: white;
+      padding: 24px 32px 24px 32px;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    }
+
+    .credit-container2 {
+      background-color: white;
+      padding: 24px 32px 24px 32px;
+      margin-top: 24px;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    }
+
+    .credit-title-text {
+      font-size: 16px;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #151515;
+    }
+
+    .credit-info-text {
+      font-size: 16px;
+      color: #656769;
+      font-weight: 500;
+    }
+
+    .credit-lower-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .credit-status-box {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+    }
+
+    .pass-text {
+      font-size: 16px;
+      color: #32a64d;
+      margin-top: 3px;
+    }
+
+    .fail-text {
+      font-size: 16px;
+      color: #e63946;
+      margin-top: 3px;
+    }
+  }
+
+  .credit-score-meter-container {
+    width: 48%;
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    padding: 24px 32px 24px 32px;
+
+    .header-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .calculate-text {
+        color: #0662b7;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: underline;
+      }
+    }
+
+    .underline {
+      margin: 24px 0px 5px 0px;
+      border-bottom: 2px solid #f0f2f5;
+    }
+
+    .lower-container {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-top: 36px;
+
+      .container-text {
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 6px;
+      }
+    }
+
+    .status-box {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+  }
+
+  .refer-value-container {
+    background-color: white;
+    display: flex;
+    padding: 24px 32px 20px 32px;
+    width: 100%;
+    gap: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+
+    .left-container {
+      background-color: #fefbf3;
+      height: 132px;
+      border-radius: 12px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .risk-channel-detail-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,20 @@
+.orgGroupButton {
+  margin: 5% 0;
+  @media only screen and (min-width: 768px) {
+    margin: 1% 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}
+.orgfileMessage {
+  display: flex;
+  flex-direction: column;
+  @media only screen and (min-width: 768px) {
+    padding: 2% 0;
+    box-sizing: unset;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 5%;
+  }
+}

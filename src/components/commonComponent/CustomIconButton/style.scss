@@ -1,0 +1,22 @@
+.btn-with-icon-container {
+  .disabled {
+    // height: 30px;
+    margin: 0px 10px;
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 0.0025em;
+  }
+
+  .enabled {
+    height: 30px;
+    margin: 0px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #0c4ca8;
+    text-transform: capitalize;
+    letter-spacing: 0.0025em;
+    &:hover {
+      background-color: #0c4ca8;
+    }
+  }
+}

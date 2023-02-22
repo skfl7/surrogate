@@ -1,0 +1,157 @@
+.history_modal {
+  .historymodal-container {
+    max-height: 520px;
+    overflow: auto;
+    .historyModal-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 2px solid #e9eaeb;
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+      .modal_title {
+        font-weight: 500;
+        color: #656565;
+        font-size: 16px;
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          font-size: 12px;
+        }
+      }
+      .historylog-close-btn {
+        color: #0662b7;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 500;
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  .historylog-modal-container {
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      .info-label {
+        font-size: 12px;
+      }
+      .info-value {
+        font-size: 12px;
+      }
+    }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      table tbody tr td {
+        font-size: 12px;
+      }
+      table thead tr th {
+        font-size: 12px;
+      }
+    }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      overflow: scroll;
+    }
+  }
+  .historylog-header {
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      min-width: 200px;
+    }
+  }
+  .MuiDialog-paperFullWidth {
+    max-width: 750px !important;
+
+    @media screen and (max-width: 520px) {
+      margin: 30px;
+    }
+    @media screen and (min-width: 520px) and (max-width: 768px) {
+      margin: 70px;
+    }
+  }
+  .historyModal-table-header {
+    padding: 4px 14px;
+    background-color: #cbe0f5;
+    width: 100%;
+  }
+  .view-more-details {
+    font-size: 14px;
+    float: right;
+    color: #0662b7;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  .view-more-history {
+    font-size: 14px;
+    float: right;
+    color: #0662b7;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .historylog-alert-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  z-index: 1 !important;
+}
+.css-5kte4h-MuiPaper-root-MuiDialog-paper {
+  max-width: 600px !important;
+}
+
+.error-modal-title {
+  color: #151515;
+  font-size: 16px !important;
+  text-align: center;
+  font-weight: 500 !important;
+  margin-top: 20px !important;
+}
+.error-try-agaii-btn {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #0662b7;
+  & :hover {
+    background-color: #0662b7;
+  }
+  width: 20px;
+}
+
+.error-modal-title {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+.error-modal-msg {
+  color: #656769;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 50px !important;
+  overflow: hidden;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    font-size: 10px !important;
+    margin: 10px !important;
+  }
+}
+.error-try-angai-btn {
+  width: 300px;
+  font-size: 13px;
+  text-transform: capitalize !important;
+  color: #ffffff !important;
+  background-color: #0662b7 !important;
+  &:hover {
+    background-color: #0662b7 !important;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: 200px;
+  }
+}
+
+.css-h4y409-MuiList-root {
+  padding-bottom: 0px !important;
+}

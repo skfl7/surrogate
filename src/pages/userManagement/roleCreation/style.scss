@@ -1,0 +1,50 @@
+.role-creation-dashboard {
+  // text-align: center; // this line causing an header text placement issue in rolecreation module
+  display: flex;
+
+  .role-creation-main-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: 'Ilisarniq',sans-serif;
+    .tableDivider {
+      padding: 0 32px !important;
+      background-color: white !important;
+    }
+    .tableBox {
+      height: 400;
+      background-color: white;
+      padding: 24px 32px ;
+      .tableHead {
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #EEF7FF;
+      }
+      .boxShadow{
+        -webkit-box-shadow: 0 5px 19px 2px rgba(0,0,0,0.1);
+       -moz-box-shadow: 0 5px 19px 2px rgba(0,0,0,0.1);
+        box-shadow: 0 5px 19px 2px rgba(0,0,0,0.1);
+      }
+      .menu {
+        padding: 10px 20px;
+        text-align: left;
+      }
+    }
+  }
+}
+.role-header-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px 24px 32px;
+  .MuiSvgIcon-root .MuiSvgIcon-fontSizeMedium .css-i4bv87-MuiSvgIcon-root{
+    width: 25px !important;
+    height: 25px !important;
+
+  }
+  .tableCell{
+    font-weight: 800;
+  }
+}

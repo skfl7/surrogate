@@ -1,0 +1,26 @@
+export const colors = {
+  lightGrey: '#eceff2',
+  blue: '#0C4CA8',
+  black: '#000000',
+  tableGrey: '#F0F0F0',
+  white: '#FFFFFF',
+  tableHeaderLightBlue: '#EAF5FF',
+  lightGreen: '#DDF1E0',
+  lightYellow: '#FAF0CE',
+  lightBrown: '#FCDDDF',
+  ModallightGrey: '#656769',
+  Modalblue: '#0662B7',
+  Modalblack: '#1515151',
+  bgGrey: '#F0F2F5',
+  textGreyHeader: '#4D4E50',
+  ActiveStatusTextColor: '#1C592A',
+  ActiveStatusBGColor: '#E3F3E6',
+  PausedStatusTextColor: '#997F31',
+  PauseStatusBGColor: '#FBF2D7',
+  ScheduledPauseTextColor: '#992D26',
+  ScheduledPausedBgColor: '#FCE4E5',
+  graphBg:'#F2FAFF',
+  greyHead:'#AFAEAF',
+  darkColor:'#151515'
+
+};

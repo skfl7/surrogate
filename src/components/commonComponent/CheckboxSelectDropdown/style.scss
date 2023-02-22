@@ -1,0 +1,42 @@
+.checkbox-select-dropdown {
+  .css-1cqo6r-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    height: 40px;
+    margin: 0px 0px;
+  }
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 8.5px 14px !important;
+  }
+}
+
+.checkbox-dropdown-options {
+  .search-text-field {
+    .css-176f598-MuiInputBase-root-MuiOutlinedInput-root {
+      height: 42px;
+      margin: 18px;
+    }
+  }
+
+  .each-option {
+    margin-left: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 16px 20px;
+    background-color: white;
+  }
+
+  .underline {
+    background-color: #f0f2f5;
+    height: 1.5px;
+    width: 100%;
+    // margin: 10px 0px;
+  }
+
+  .dropdown-option-container {
+    margin-left: 13px !important;
+    padding-bottom: 10px;
+  }
+}

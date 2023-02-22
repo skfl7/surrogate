@@ -1,0 +1,77 @@
+.header-with-info-container {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+
+  .header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    color: #151515;
+    margin: 5px 0px;
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      font-size: 12px;
+    }
+    .info-section {
+      display: flex;
+      align-items: flex-start;
+      @media screen and (min-width: 768px) {
+        align-items: flex-end;
+      }
+    }
+    .info-icon {
+      margin: 0px 8px 0px 15px;
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        margin: 5px 4px 0 0;
+        width: 15px;
+      }
+    }
+
+    .info-label {
+      color: #656769;
+      font-size: 12px;
+      font-weight: 500;
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        font-size: 10px;
+      }
+    }
+
+    .margins {
+      margin: 4px 0px 0px 0px;
+    }
+  }
+
+  .icons-container {
+    display: flex;
+    // justify-content: end;
+    // height: 5px;
+    .each-icon {
+      // width: 33px;
+      // height: 33px;
+      display: flex;
+      margin-left: 16px;
+      // margin: -27px 5px 0px 0px;
+      cursor: pointer;
+      padding: 7px;
+
+      .icons {
+        margin: auto;
+        // width: 26px !important;
+      }
+    }
+    .each-icon:hover {
+      background-color: #f0f2f5;
+      border-radius: 50%;
+    }
+
+    // .each-icon:hover {
+    //   background-color: #f3f3f3;
+    //   border-radius: 50%;
+    // }
+  }
+}
+// .underline {
+//   margin: 15px 0px 5px 0px;
+//   border-bottom: 2px solid #f0f2f5;
+// }

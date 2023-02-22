@@ -1,0 +1,35 @@
+.common-table-container {
+  td,
+  th {
+    min-width: 220px;
+  }
+  th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  thead {
+    tr {
+      background-color: #eaf5ff;
+      width: fit-content;
+    }
+  }
+  tr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  tbody {
+    tr {
+      height: 60px;
+      // width: fit-content;
+    }
+    td {
+      div {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+}

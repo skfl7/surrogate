@@ -1,0 +1,37 @@
+.upload-org-container {
+  background-color: white !important;
+  padding: 30.45px 38.4px;
+  margin-bottom: 30%;
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+  }
+  .upload-card-head {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+  }
+  .upload-card-subhead {
+    font-size: 0.9rem;
+    margin: 1% 0;
+    font-weight: 500;
+    @media only screen and (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+  }
+  .progress-container {
+    width: 100%;
+    margin: 12.8px 0;
+    .upload-card-progress {
+      background-color: #e6e7e7;
+      border-radius: 10px;
+      height: 8px;
+    }
+  }
+  .upload-card-progress-text {
+    min-width: 35;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}

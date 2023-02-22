@@ -1,0 +1,39 @@
+.access-library-container-model {
+  img{
+    cursor: pointer !important;
+  }
+  margin-top: 5vh;
+  background-color: white;
+  padding: 0 20px;
+  .header-box {
+    padding: 20px 0 20px 0;
+    .header {
+      font-size: 16px;
+      font-weight: 600;
+      padding-bottom: 2px;
+    }
+    .sub-header {
+      font-size: 14px;
+      font-weight: 400;
+      color: #afaeaf;
+    }
+  }
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #afaeaf;
+      border-radius: 6px;
+      padding: 5px 10px;
+      .search-icon {
+        margin-right: 15px;
+        color: #afaeaf;
+      }
+    }
+  }
+}

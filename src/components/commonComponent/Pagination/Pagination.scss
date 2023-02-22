@@ -1,0 +1,63 @@
+.table_pagination {
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+  .paginationListing {
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  .paginationArrow {
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+  .css-1plo9g6-MuiTableCell-root {
+    @media only screen and (max-width: 768px) {
+      padding: 16px 8px;
+    }
+  }
+  .css-1h61um6-MuiPagination-root ul > li {
+    @media only screen and (max-width: 768px) {
+      padding-left: 0;
+    }
+  }
+  .css-1604o5-MuiToolbar-root-MuiTablePagination-toolbar {
+    @media only screen and (max-width: 768px) {
+      padding-left: 0px;
+    }
+  }
+  .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+    padding-left: 0px;
+  }
+  .css-7zdw9p-MuiTableCell-root-MuiTablePagination-root .MuiInputBase-root {
+    border-radius: 4px;
+  }
+  p {
+    margin: 0;
+  }
+  .css-1h61um6-MuiPagination-root
+    ul
+    > li:not(:first-child):not(:last-child)
+    > button:not(.Mui-selected) {
+    background-color: transparent;
+    color: black;
+  }
+  .css-13r9ka9-MuiTablePagination-selectLabel {
+    @media screen and (min-width: 320px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
+    font-size: 14px;
+  }
+  .css-14xk91y-MuiTablePagination-displayedRows {
+    @media screen and (min-width: 320px) and (max-width: 1024px) {
+      font-size: 12px;
+    }
+    font-size: 14px;
+  }
+}

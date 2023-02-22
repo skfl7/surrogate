@@ -1,0 +1,257 @@
+.css-jy1wwb-MuiTypography-root {
+  margin-bottom: '2px' !important;
+}
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 14px !important;
+  padding: 9.7px 14px !important;
+}
+.MuiButtonBase-root
+  .MuiIconButton-root
+  .MuiIconButton-sizeMedium
+  .css-o0qvbn-MuiButtonBase-root-MuiIconButton-root {
+  padding: 0;
+}
+.css-p3zgmz-MuiInputBase-root-MuiOutlinedInput-root.Mui-error
+  .MuiOutlinedInput-notchedOutline {
+  border-color: black !important;
+}
+
+.onboarding {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    input {
+      font-size: 13px !important;
+    }
+  }
+  .footer-cta {
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      min-width: 100px !important;
+    }
+  }
+  background-color: #e6e7e7;
+  .title-header {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px 30px;
+    border-radius: 5px;
+
+    .header-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .head {
+        display: flex;
+        gap: 8px;
+
+        .arrow {
+          color: #0078ef;
+        }
+      }
+      .id-btn {
+        background-color: #e6e7e7;
+        height: 30px;
+      }
+      .btn {
+        text-transform: capitalize;
+        background-color: white;
+        margin-left: 15px;
+        color: #0662b7;
+
+        .icon-btn {
+          height: 30px;
+        }
+      }
+      .btn:hover {
+        background-color: #e6e7e7;
+      }
+    }
+  }
+  .add-header {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    .head-title {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  .surrogate-container {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    .surrogate-box {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .add-surrogate {
+      width: 90%;
+      .add-surrogate-text {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          font-size: 12px;
+        }
+      }
+      .add-surrogate-content {
+        display: flex;
+        justify-content: space-between;
+        .add-surrogate-box {
+          display: flex;
+          align-items: center;
+          .add-surrogate-checkbox {
+            color: #0662b7;
+          }
+          .add-surrogate-item {
+            font-size: 14px;
+            font-weight: 400;
+            @media screen and (min-width: 320px) and (max-width: 768px) {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .supplier-container {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    .supplier-box {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+  }
+  .proprietor-container {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px 30px 40px;
+    border-radius: 5px;
+    .proprietor-container-box {
+      display: flex;
+      justify-content: space-between;
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        button {
+          min-width: 140px;
+          font-size: 10px;
+          margin-bottom: 5px;
+          padding: 5px 8px !important;
+          span svg {
+            width: 20px;
+          }
+        }
+      }
+      .proprietor-head {
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          img {
+            margin: 5px 5px 0 0;
+            width: 16px;
+          }
+        }
+        display: flex;
+        // gap: 16px;
+        align-items: center;
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          flex-direction: column;
+          display: initial;
+        }
+      }
+    }
+  }
+  .keycontact-container {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    .keycontact-container-box {
+      display: flex;
+      justify-content: space-between;
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        button {
+          min-width: 140px;
+          font-size: 10px;
+          margin-bottom: 5px;
+          padding: 5px 8px !important;
+          span svg {
+            width: 20px;
+          }
+        }
+      }
+      .keycontact-head {
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          img {
+            margin: 5px 5px 0 0;
+            width: 16px;
+          }
+        }
+        display: flex;
+        // gap: 16px;
+        align-items: center;
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          flex-direction: column;
+          display: initial;
+        }
+      }
+    }
+  }
+  .item-container {
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    .item-container-box {
+      display: flex;
+      justify-content: space-between;
+      .item-head {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+      }
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+      font-size: 11px !important;
+    }
+  }
+  .regulatory-img {
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .css-1d1asmz-MuiAutocomplete-root
+    .MuiOutlinedInput-root.MuiInputBase-sizeSmall {
+    padding-top: 0 !important ;
+    padding-bottom: 0 !important ;
+    padding-left: 0 !important;
+    height: 30px !important;
+  }
+
+  .css-tjg027-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 1px !important;
+  }
+}
+
+.no-image-box {
+  width: 250px;
+  height: 131px;
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+  box-shadow: 0px 1px 2px 1px rgba(21, 21, 21, 0.1);
+}
+
+.footer-close-cta {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    button {
+      width: 100% !important;
+    }
+  }
+}

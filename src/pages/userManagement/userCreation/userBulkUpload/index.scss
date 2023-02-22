@@ -1,0 +1,35 @@
+.bulk-upload-container {
+  width: 100%;
+  .bulk-upload-header {
+    width: 100%;
+    height: 50;
+    border-radius: 10px;
+    background-color: white;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+
+    margin-top: 32px;
+    .arrowBtn {
+      font-size: 32px;
+      cursor: pointer;
+    }
+    .bulk-upload-head {
+      font-size: 19.2px;
+    }
+    .bulk-upload-subhead {
+      font-size: 16px;
+      color: grey;
+      margin: 5px 0;
+    }
+  }
+  .upload-card-main-container {
+    background-color: transparent;
+    margin: 16px 0;
+    border-radius: 10px;
+    .css-1h300q4 {
+      padding: 12.18px 0;
+      margin-bottom: 0;
+    }
+  }
+}

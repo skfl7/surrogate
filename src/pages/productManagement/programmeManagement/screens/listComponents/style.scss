@@ -1,0 +1,11 @@
+.history-log-details-containerText {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+.history-log-details-tableText {
+  width: 30%;
+}
+.history-log-details-tableText:last-child {
+  width: 90%;
+}

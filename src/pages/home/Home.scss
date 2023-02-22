@@ -1,0 +1,14 @@
+.main-container {
+  margin: 2rem 2rem 2.3rem !important;
+  height: 85vh;
+  .home-container {
+    background-color: white !important;
+    margin-top: 2rem;
+    border-radius: 10px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 3% !important;
+    padding: 5vh 3vw !important;
+  }
+}

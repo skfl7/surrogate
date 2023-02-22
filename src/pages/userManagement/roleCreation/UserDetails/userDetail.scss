@@ -1,0 +1,88 @@
+.user-details-container {
+  background-color: white;
+  .header-box {
+    padding: 1rem 0;
+    .header {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .sub-header {
+      font-size: 14px;
+      font-weight: 400;
+      color: #afaeaf;
+    }
+  }
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    padding: 0 30px;
+    .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+      border: 1px solid #afaeaf;
+      border-radius: 4px;
+      height: 40px;
+      width: 23vw;
+      padding: 0 14px;
+      .search-icon {
+        color: #afaeaf;
+      }
+    }
+    .filter-btn {
+      font-size: 12px !important;
+      text-transform: capitalize;
+      padding: 7px;
+      height: 28px !important;
+      border-radius: 4px !important;
+    }
+  }
+}
+
+.user-details-table-header {
+  margin: 2% 0;
+  box-shadow: none;
+  background-color: #eef7ff;
+  padding: 12px 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #151515;
+}
+.user-details-link {
+  color: #0662b7 !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.common-table-container-auth {
+  .user_detail_tableData {
+    vertical-align: baseline;
+    line-height: 3;
+  }
+  .authTableHeader {
+    // display: inherit;
+    background-color: #eaf5ff;
+    width: fit-content;
+  }
+  th {
+    height: 55px;
+  }
+}
+
+:-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f3f3f3;
+  border-radius: 10px;
+}
