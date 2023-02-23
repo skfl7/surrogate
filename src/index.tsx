@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createTheme, ThemeProvider } from '@mui/material';
 import { grey } from '@mui/material/colors';
+import './font.css';
 
 const theme = createTheme({
   palette: {
